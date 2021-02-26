@@ -14,7 +14,7 @@ Extensive flooding begins throughout southern Alberta, Canada, leading to the ev
 * June 22, 2013 (Saturday):
 100,000 residents are displaced on the third day of flooding in Alberta. (CBC)
 
-In an additional step, we compared the sub-events represented in the CGS with the sub-events extracted from the Wikipedia portal. To do so, we made another assessment tool. With this tool, for each pair (CGS tweet, sub-event) we determined if the tweet is related to either the whole sub-event, a part of it, or not at all. Note that a tweet can thus be associated to multiple sub-events. In total, we annotated 6,560 pairs as 'not at all' (92%), 543 pairs as 'partly' (about 7%), and 29 pairs as 'whole' (less than 1%). 62% of the CGS tweets do not refer to any sub-events of the Wiki portal.
+In an additional step, we compared the sub-events represented in the CGS with the sub-events extracted from the Wikipedia portal. To do so, we made another assessment tool. With this tool, for each pair (CGS tweet, sub-event) we determined if the tweet is related to either the whole sub-event, a part of it, or not at all. Note that a tweet can thus be associated to multiple sub-events. In total, we annotated 6,560 pairs as 'not at all' (92%), 543 pairs as 'partly' (about 7%), and 29 pairs as 'whole' (less than 1%). 67% of the CGS tweets do not refer to any sub-events of the Wiki portal.
 
 Among the 154 sub-events in the Wikipedia portal, 103 are represented in the CGS (about 67%). The 51 sub-events for which there are no tweet references are spread over 10 of the 26 events, which represents one third of the sub-events and affects 38% of the events.
 
