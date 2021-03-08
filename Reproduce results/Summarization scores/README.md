@@ -18,7 +18,7 @@ scikit-learn==0.22.2.post1
 git clone https://github.com/kylehg/summarizer
 ```
 
-* You need to have the summaries for each event for each method in the [Models Summarization](/../Summarization%20scores) repository.
+* You need to have the summaries for each event for each method in the [Models Summarization](./../Summarization%20scores) repository.
 
 ## Run
 
@@ -29,4 +29,4 @@ python evaluate_summaries.py -rouge REPOSITORY_OF_ROUGE-1.5.5.pl
 
 ## Some statistics
 
-* Once scores files generated, you can report some statistics using the [Statistics](/stats.py) file.
+* Once scores files generated, you can report some statistics using the [Statistics](./stats.py) file.

@@ -17,7 +17,7 @@ scikit-learn==0.22.2.post1
 git clone https://github.com/kylehg/summarizer
 ```
 
-* Put your summaries for each event (26 files) in the [model](/model/Raw) repository (or specify the repository path when you call the python file).
+* Put your summaries for each event (26 files) in the [model](./model/Raw) repository (or specify the repository path when you call the python file).
 The repository should only contains summaries files. Files format : tweets separated by \n; Files name : event_name.txt.
 
 * For now you can evaluate one model at a time.

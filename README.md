@@ -4,12 +4,12 @@ This GitHub repository contains the code we used to transform the 2018-2019 TREC
 
 ## Parts of this repository
 
-* [Model evaluation](/Model%20evaluation): Evaluate your own model
-* [Paper annotations](/Paper%20annotations): Annotations (subevents, redundancy and coverage) 
-* [Reproduce results](/Reproduce%20results): Reproduce results we reported in the paper, more detailed information about the analyses and examples
-* [Sets](/Sets): Repository for sets/summaries (inluding **NHP** and **NHPAR** gold standards)
-* [TREC IS annotations](/TREC%20IS%20annotations): TREC IS annotations
-* [Tweets](/Tweets): Raw tweets
+* [Model evaluation](./Model%20evaluation): Evaluate your own model
+* [Paper annotations](./Paper%20annotations): Annotations (subevents, redundancy and coverage) 
+* [Reproduce results](./Reproduce%20results): Reproduce results we reported in the paper, more detailed information about the analyses and examples
+* [Sets](./Sets): Repository for sets/summaries (inluding **NHP** and **NHPAR** gold standards)
+* [TREC IS annotations](./TREC%20IS%20annotations): TREC IS annotations
+* [Tweets](./Tweets): Raw tweets
 
 ## Package Requirements
 
@@ -37,8 +37,8 @@ Download tweets and annotations on the TREC IS website :
 * [Annotations](http://www.dcs.gla.ac.uk/~richardm/TREC_IS/2020/2020A/TRECIS_2018_2019-labels.json "TREC IS Annotations 2018-2019")
 * [Tweets](http://dcs.gla.ac.uk/~richardm/TREC_IS/2020/data.html "TREC IS Tweets 2018-2019"): Follow the instructions and download **trecis2018-test**, **trecis2018-train**, **trecis2019-A-test** and **trecis2019-B-test** sets
 
-* Put the annotations json file in the [TREC IS annotations](/TREC%20IS%20annotations) directory (See Section 3.2.1 of the paper)
-* Put the tweets json files (unzip the IS files) in the [Tweets](/Tweets) directory (See Section 3.2.2 of the paper)
+* Put the annotations json file in the [TREC IS annotations](./TREC%20IS%20annotations) directory (See Section 3.2.1 of the paper)
+* Put the tweets json files (unzip the IS files) in the [Tweets](./Tweets) directory (See Section 3.2.2 of the paper)
 
 ## First/Mandatory step
 
@@ -48,16 +48,16 @@ Run the python file :
 python initialization.py [-remove_coverage=False]
 ```
 
-* Summaries **NHP** and **NHPAR** will be generated and put into [Sets](/Sets) directory, see this [README](/Sets/README.md) for more details. (Section 5.3 of the paper)
+* Summaries **NHP** and **NHPAR** will be generated and put into [Sets](./Sets) directory, see this [README](./Sets/README.md) for more details. (Section 5.3 of the paper)
 * Using the option *-remove_coverage=True* you can genereate the **NHPAR** summaries without the coverage annotations. (Section 4.2.2 of the paper)
 
 ## Reproduce paper results
 
-Once the initialization.py file has been run you can reproduce the results of the paper. To do so, see this [README.md](/Reproduce%20results/README.md) file.
+Once the initialization.py file has been run you can reproduce the results of the paper. To do so, see this [README.md](./Reproduce%20results/README.md) file.
 
 ## Evaluate your own model
 
-You can compare your own model, see this [README](/Model%20evaluation/README.md) fore more details.
+You can compare your own model, see this [README](./Model%20evaluation/README.md) fore more details.
 
 ## Example
 

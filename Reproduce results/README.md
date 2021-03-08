@@ -8,17 +8,17 @@ Run the [coherence_readability.py](./Coherence/coherence_readability.py) file to
 
 ## Cohesion
 
-You can compare the order of the tweets in the summary and the order of the tweets using the subevents date with the [chronological_cohesion.py](/Cohesion/chronological_cohesion.py) file.
+You can compare the order of the tweets in the summary and the order of the tweets using the subevents date with the [chronological_cohesion.py](./Cohesion/chronological_cohesion.py) file.
 
 ## Coverage
 
-Once you run the file [initialization](../initialization.py), the file verification.txt has been updated and the file df.csv has been created. Then you can annotate yourself the coverage using the [coverage.py](/Coverage/coverage.py) file. At the left of the interface you have the tweet and in the box on the right you have the subevent. You can annotate if the tweet cover partly, the whole, or not at all the subevent. Breathe, this tool is a little bit slow.
-You can also check the subevents missing in the summary compared to the entire dataset using [coverage_subevents.py](/Coverage/coverage_subevents.py).
+Once you run the file [initialization](../initialization.py), the file verification.txt has been updated and the file df.csv has been created. Then you can annotate yourself the coverage using the [coverage.py](./Coverage/coverage.py) file. At the left of the interface you have the tweet and in the box on the right you have the subevent. You can annotate if the tweet cover partly, the whole, or not at all the subevent. Breathe, this tool is a little bit slow.
+You can also check the subevents missing in the summary compared to the entire dataset using [coverage_subevents.py](./Coverage/coverage_subevents.py).
 
 ## Redundancy
 
-Once you run the file [initialization](../initialization.py) the input.txt and output.txt has been initialized. You can run the [redundancy.py](/Redundancy/redundancy.py) file to annotate yourself the redundancy. Annotations will be in outuput.txt file, the *new* column represents the novelty or redundancy of a tweet. We presented the tool in the paper, see Section 4.2.1.
-You can also check the tweets removed automatically by ROUGE score using the file [rouge_redundancy.py](/Coverage/rouge_redundancy.py). The output of this file is the list of pairs tweets : the deleted tweet and the tweet with the max ROUGE score for the deleted tweet.
+Once you run the file [initialization](../initialization.py) the input.txt and output.txt has been initialized. You can run the [redundancy.py](./Redundancy/redundancy.py) file to annotate yourself the redundancy. Annotations will be in outuput.txt file, the *new* column represents the novelty or redundancy of a tweet. We presented the tool in the paper, see Section 4.2.1.
+You can also check the tweets removed automatically by ROUGE score using the file [rouge_redundancy.py](./Coverage/rouge_redundancy.py). The output of this file is the list of pairs tweets : the deleted tweet and the tweet with the max ROUGE score for the deleted tweet.
 
 ## Run state-of-the-art approaches
 
@@ -67,7 +67,7 @@ Then regenerate the PKUSUMSUM.jar file.
 Remind the PATH of this new jar file and the PATH of the **stopwords_english.txt** file.
 
 You can now generate summaries for the methods : Centroid, ClusterCMRW, Coverage, Lead, LexPageRank, SubModular1, SubModular2, and TextRank.
-Move to the [Models summarization](/Models%20summarization) folder and run the [pkusumsum.py](/Models%20summarization/pkusumsum.py) file :
+Move to the [Models summarization](./Models%20summarization) folder and run the [pkusumsum.py](./Models%20summarization/pkusumsum.py) file :
 ```
 python pkusumsum.py -PATH_JAR PATH_JAR_FILE -PATH_STOPWORDS PATH_STOPWORDS_FILE
 ```
@@ -247,7 +247,7 @@ git clone https://github.com/krudra/disaster_summarizer_TWEB_2018
 				python NSEMCOWTS.py PATH_output_content_file PATH_breakpoint_file PATH_Synsets PATH_hybd_place event_name
 				```
 
-Once you have generated the summaries, put them in the [COWTS](/Models%20Summarization/COWTS) and [SEMCOWTS](/Models%20Summarization/SEMCOWTS) repositories.
+Once you have generated the summaries, put them in the [COWTS](./Models%20Summarization/COWTS) and [SEMCOWTS](./Models%20Summarization/SEMCOWTS) repositories.
 
 ## Evaluate state-of-the-art approaches
 
