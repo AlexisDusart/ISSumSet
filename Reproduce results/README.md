@@ -67,7 +67,7 @@ Then regenerate the PKUSUMSUM.jar file.
 Remind the PATH of this new jar file and the PATH of the **stopwords_english.txt** file.
 
 You can now generate summaries for the methods : Centroid, ClusterCMRW, Coverage, Lead, LexPageRank, SubModular1, SubModular2, and TextRank.
-Move to the [Models summarization](./Models%20summarization) folder and run the [pkusumsum.py](./Models%20summarization/pkusumsum.py) file :
+Move to the [Models Summarization](./Models%20Summarization) folder and run the [pkusumsum.py](./Models%20Summarization/pkusumsum.py) file :
 ```
 python pkusumsum.py -PATH_JAR PATH_JAR_FILE -PATH_STOPWORDS PATH_STOPWORDS_FILE
 ```
